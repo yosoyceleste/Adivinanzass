@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.adivinanzaskener"
+    namespace = "com.example.CelesteAdivinanzas"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.adivinanzaskener"
+        applicationId = "com.example.CelesteAdivinanzas"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

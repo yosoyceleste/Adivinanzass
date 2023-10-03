@@ -1,4 +1,4 @@
-package com.example.adivinanzaskener
+package com.example.CelesteAdivinanzas
 
 import org.junit.Test
 

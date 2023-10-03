@@ -1,4 +1,4 @@
-package com.example.adivinanzaskener
+package com.example.CelesteAdivinanzas
 //-------------------------------------------------------//
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +13,7 @@ import android.widget.Toast
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.get
 import com.airbnb.lottie.LottieAnimationView
+import com.example.CelesteAdivinanzas.R
 import com.github.javafaker.Faker
 import com.google.android.flexbox.FlexboxLayout
 import kotlin.random.Random
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         textMsjResultado = findViewById(R.id.txtMsjResultado)
         txtMsjRespuestaCorrecta = findViewById(R.id.txtMsjRespuestaCorrecta)
         mediaPlayerVictoria = MediaPlayer.create(this, R.raw.correcto)
-        mediaPlayererror = MediaPlayer.create(this,R.raw.incorrecta)
+        mediaPlayererror = MediaPlayer.create(this, R.raw.incorrecta)
         mediaplayerclick = MediaPlayer.create(this, R.raw.click)
         btnRestart = findViewById(R.id.btnRestart)
 
@@ -119,12 +120,12 @@ class MainActivity : AppCompatActivity() {
             finalizado = true
 
             if (indicesOcupados.size == respuesta.length){
-                lottieResult.setAnimation(R.raw.animation_lmwnfoo7)
+                lottieResult.setAnimation(R.raw.animation_ln9fqefj)
                 textMsjResultado.text = "Felicidades!"
                 mediaPlayerVictoria.start()
             }
             else{
-                lottieResult.setAnimation(R.raw.animation_lmwnexe6)
+                lottieResult.setAnimation(R.raw.animation_ln9fs9bm)
                 textMsjResultado.text = "Perdiste :("
                 mediaPlayererror.start()
             }

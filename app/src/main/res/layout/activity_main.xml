@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.CelesteAdivinanzas.MainActivity">
 
     <TextView
         android:id="@+id/txtPregunta"
@@ -22,7 +22,7 @@
         android:layout_height="300dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/animation_lmwndpkz"
+        app:lottie_rawRes="@raw/animation_ln9fw8qt"
         app:layout_constraintTop_toBottomOf="@id/txtPregunta"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -113,7 +113,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="144dp"
-        android:text="Reiniciar Juego"
+        android:text="Empezar de nuevo"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
